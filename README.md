@@ -18,7 +18,7 @@ Task Manager - це настільний додаток для управлін�
 ### Клонуйте репозиторій
 Клонуйте цей репозиторій на ваш локальний комп'ютер:
 
-git https://github.com/KristinaRiabova/Task_Management_front.git
+git clone https://github.com/KristinaRiabova/Task_Management_front.git
 cd task-manager
 
 ## Встановлення залежностей
