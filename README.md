@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# Task Manager - Фронтенд
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Опис
+Task Manager - це настільний додаток для управління задачами, розроблене з використанням React.js та Electron.js. Додаток дозволяє користувачам створювати, редагувати та видаляти задачі, а також фільтрувати та шукати їх за статусом і змістом.
 
-## Available Scripts
+## Функціонал
+- Отримання списку задач з API
+- Створення нової задачі
+- Редагування існуючих задач
+- Видалення задач
+- Фільтрація задач за статусом
+- Пошук задач за заголовком або описом
 
-In the project directory, you can run:
+## Вимоги
+- Node.js >= 14
+- npm або yarn
 
-### `npm start`
+### Клонуйте репозиторій
+Клонуйте цей репозиторій на ваш локальний комп'ютер:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+git https://github.com/KristinaRiabova/Task_Management_front.git
+cd task-manager
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Встановлення залежностей
 
-### `npm test`
+npm install
+### або
+yarn install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Запуск додатку
 
-### `npm run build`
+npm start
+### або
+yarn start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ця команда одночасно запустить сервер React і Electron. Додаток буде доступний на http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Збірка додатку
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm run build
+### або
+yarn build
 
-### `npm run eject`
+# Використання 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Запустіть сервер бэкенду.
+2. Запустіть додаток.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Був використан Tailwind CSS 
